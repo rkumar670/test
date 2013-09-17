@@ -10,7 +10,9 @@ using System.Web.Security;
 
 namespace MVCGIT.Models
 {
-
+    /// <summary>
+    /// Track
+    /// </summary>
     #region Models
     [PropertiesMustMatch("NewPassword", "ConfirmPassword", ErrorMessage = "The new password and confirmation password do not match.")]
     public class ChangePasswordModel
